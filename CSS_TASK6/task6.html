@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="task6.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <title>Product Order Form</title>
+</head>
+
+<body>
+  <h1>Product Order Form</h1>
+  <div class="container">
+    <form action="submit" method="post">
+      
+      <div class="form-group">
+        <label for="name">FIRST NAME:</label>
+        <input type="text" id="name" name="name" placeholder="Example:John" required>
+      </div>
+      <div class="form-group">
+        <label for="name">LAST NAME:</label>
+        <input type="text" id="name" name="name" placeholder="Example:Doe" required>
+      </div>
+    
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Example:abx@gmail.com" required>
+      </div>
+      <div class="form-group">
+        <label for="quantity">PHONE NUMBER:</label>
+        <input type="number" id="quantity" name="quantity" placeholder="Example:12345 67890" required>
+      </div>
+      <div class="form-group">
+        <label for="name">YOUR ADDRESS:</label>
+        <input type="text" id="name" name="name" placeholder="542 ,Amberst Street" required>
+      </div>
+      <div class="form-group">
+        <label for="name">BILLING ADDRESS:</label>
+        <input type="text" id="name" name="name" placeholder="123 ,street" required>
+      </div>
+      <div class="form-group">
+        <label for="name">CITY:</label>
+        <input type="text" id="name" name="name" placeholder="Example:Nagercoil" required>
+      </div>
+      <div class="form-group">
+        <label for="name">ZIP CODE:</label>
+        <input type="text" id="name" name="name" placeholder="Example:6292004" required>
+      </div>
+      <div class="form-group">
+        <label for="name">STATE/PROVINCE:</label>
+        <input type="text" id="name" name="name" placeholder="Example:TamilNadu" required>
+      </div>
+      <div class="form-group">
+        <label for="product">COUNTRY:</label>
+        <select id="product" name="product" placeholder="India">
+          <option value="Product 1">INDIA</option>
+          <option value="Product 2">USA</option>
+          <option value="Product 3">UK</option>
+          <option value="Product 3">AUSTRALIA</option>
+          <option value="Product 3">CHINA</option>
+          <option value="Product 3">JAPAN</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <input type="submit" value="Submit">
+        <input type="submit" value="Reset">
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
