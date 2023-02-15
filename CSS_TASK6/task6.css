@@ -1,70 +1,68 @@
 * {
-   
+
   margin: 0;
-  padding:0;
+  padding: 0;
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
+
 body {
-    background-image: url(./pexels.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  .container {
-    background-color: rgba(60, 107, 92, 0.671);
-    padding: 2rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 2rem;
-    border-radius: 15px;
-  }
-  
-  h1 {
-    margin-bottom: 40px;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .form-group {
-    width: 50%;
-    padding: 10px;
-    margin-bottom: 10px;
-    text-align: left;
-  }
-  
-  label {
-    font-weight: bold;
-    margin-bottom: 10px;
-    display: block;
-  }
-  
-  input[type="text"], input[type="email"], input[type="number"], select {
-    width: 100%;
-    padding: 1px;
-    font-size: 16px;
-    border: 1px solid #CCC;
-    border-radius: 5px;
-  }
-  
-  input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #3E8E41;
-  }
- 
+  background-image: url(./pexels.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5%;
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ background-color: rgba(60, 107, 92, 0.671);
+ padding:10%;
+ border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 15px;
+}
+
+form {
+  font-size: 1em;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+input[type="text"] {
+  border: 1px solid white;
+  width: 20%;
+  height: 20px;
+  color: white;
+  font-size: 1em;
+}
+label {
+  color: white;
+  text-transform: uppercase;
+  padding: 5px;
+}
+input[type="text"]#address,
+input[type="text"]#uraddress {
+    width: 81%;
+}
+input[type="button"].place {
+  width: 20%;
+  height: 30px;
+  background-color: rgba(14, 119, 179, 0.716);
+  cursor: pointer;
+}
+input[type="button"].reset {
+  width: 20%;
+  height: 30px;
+  background-color: rgba(255, 162, 0, 0.656);
+  cursor: pointer;
+}
+input[type="text"]#uraddress {
+  width:82%;
+}
