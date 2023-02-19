@@ -1,68 +1,78 @@
 * {
-
-  margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  margin: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-  background-image: url(./pexels.jpg);
-  background-position: center;
+  background-image: url("./pexels.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 5%;
+  padding: 40px;
+  overflow: hidden;
 }
 
 .container {
- display: flex;
- flex-direction: column;
- justify-content: center;
- background-color: rgba(60, 107, 92, 0.671);
- padding:10%;
- border-radius: 10px;
+  background-color: rgba(47, 70, 54, 0.5);
+  width: 70%;
+  height: 70%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Impact;
+  color: whitesmoke;
 }
 
 h1 {
   text-align: center;
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 15px;
+  font-family: sans-serif;
+  letter-spacing: 1ch;
 }
 
-form {
-  font-size: 1em;
-  margin: 20px;
+.user {
   display: flex;
-  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 20px;
+  justify-content: space-between;
 }
-input[type="text"] {
-  border: 1px solid white;
-  width: 20%;
-  height: 20px;
-  color: white;
-  font-size: 1em;
+
+.align {
+  padding: 20px;
 }
-label {
-  color: white;
-  text-transform: uppercase;
-  padding: 5px;
+
+#button {
+  background-color: rgb(78, 78, 216);
+  color: azure;
+  height: 35px;
+  width: 100px;
+  position: relative;
+  left: 400px;
 }
-input[type="text"]#address,
-input[type="text"]#uraddress {
-    width: 81%;
+
+p {
+  text-align: center;
+  color: whitesmoke;
+  padding-top: 20px;
 }
-input[type="button"].place {
-  width: 20%;
-  height: 30px;
-  background-color: rgba(14, 119, 179, 0.716);
-  cursor: pointer;
+
+.box {
+  height: 25px;
+  width: 150px;
+  background-color: rgba(0, 0, 5, 0.5);
+  text-align: center;
+  font-family: Arial;
+  margin: auto;
 }
-input[type="button"].reset {
-  width: 20%;
-  height: 30px;
-  background-color: rgba(255, 162, 0, 0.656);
-  cursor: pointer;
+
+.box1 {
+  height: 25px;
+  width: 500px;
+  width: 70%;
+  background-color: rgba(0, 0, 5, 0.5);
+  margin: auto;
 }
-input[type="text"]#uraddress {
-  width:82%;
+
+.box2 {
+  background-color: rgba(1, 5, 5, 0.5);
 }
